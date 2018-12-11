@@ -14,6 +14,8 @@ var map = {
 	],
 	"./candidates/candidates.module": [
 		"./src/app/views/candidates/candidates.module.ts",
+		"candidates-candidates-module~user-user-module",
+		"common",
 		"candidates-candidates-module"
 	],
 	"./dashboard/dashboard.module": [
@@ -53,6 +55,7 @@ var map = {
 	],
 	"./user/user.module": [
 		"./src/app/views/user/user.module.ts",
+		"candidates-candidates-module~user-user-module",
 		"common",
 		"user-user-module"
 	],
@@ -858,7 +861,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Apps\app-makhawini\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\makhawini-beta\src\main.ts */"./src/main.ts");
 
 
 /***/ })
