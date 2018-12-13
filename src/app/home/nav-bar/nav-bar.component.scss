@@ -43,10 +43,13 @@
         }
     }
 
-    header nav{
-        background-color: color(£ff);
+    .header nav{
+        background-color: color(#fff);
+        
     }
-
+    nav {
+        background: #fff;
+    }
     #navbarCollapse a:hover{
         border-bottom: 3px solid color(sky-blue);
         
