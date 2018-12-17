@@ -1,0 +1,39 @@
+.nav-container {
+  background: #F8F9F9;
+  height: 100px;
+  width: 100%;
+  position: relative;
+  text-transform: lowercase;
+  @media only screen and (max-width: 600px) {
+display: none;
+  }
+  section {
+    position: absolute;
+    top: 0;
+    padding: 1%;
+    height: 100%;
+  }
+
+  .logo-section {
+    left: 3em;
+    width: 20%;
+    .logo {
+      a {
+        font-weight: 900;
+        text-decoration: none;
+        color: black;
+        font-size: unset;
+      }
+    }
+  }
+  .nav-section {
+    right: 0;
+    width: 75%;
+    text-align: right;
+    padding-right: 5%;
+
+  }
+}
+
+
+@media only screen and (max-width: 600px) {}

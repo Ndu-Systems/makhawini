@@ -1,0 +1,83 @@
+ul {
+  @media only screen and (max-width: 600px) {
+    padding: 0;
+  }
+    li {
+      display: inline-block;
+      padding: 2%;
+      padding-bottom: 2%;
+      background: none;
+      @media only screen and (max-width: 600px) {
+        display: block;
+      }
+      a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 13px;
+        font-weight: lighter;        
+      }
+    }
+
+  }
+ ul li a.find-job-btn{
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #23B684;
+    color: #000000;
+    border-radius: 50px;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bolder;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    position: relative;
+
+    .drop-down-items {
+      min-width: 200px;
+      display: none;
+      position: absolute;
+      height: auto;
+      left: -50px;
+      text-align: left;
+      z-index: 100;
+      @media only screen and (max-width: 600px) {
+        left: 35%;
+        background: red;
+
+      }
+
+      li {
+        background: #ecf0f1;
+        padding: 5px;
+        margin-left: 0;
+        display: block;
+        width: auto;
+
+        a{
+          display: block;          
+        }
+      }
+    }
+  }
+
+  .dropdown:hover .drop-down-items {
+    display: block; 
+  }
+
+  li {
+    :hover {
+      color: #95a5a6;
+    }
+  }
+
+  
+.active-link {
+    color: inherit !important;
+  }
+  
