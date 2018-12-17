@@ -1,0 +1,73 @@
+img{
+    height: 29px;
+    width: 100px;
+    margin-left: 32em;
+     margin-top: 22px;
+}
+h1{
+    text-align: center
+}
+
+p{
+    margin: 0;
+    font-size: 0.8em;
+    text-align: center;   
+    color: #000000;    
+  }
+
+  .cta{
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #000000;
+    color: #000000;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 7px;
+    font-weight: bolder;
+    margin-left: 76.5em;
+    margin-top: 2em;
+    margin-bottom: 10em;    
+    cursor: pointer;
+  }
+
+ 
+
+.container-bg{
+    width: 100%;
+    background: url(../../../../../assets/images/rawpixel-652547-unsplash.jpg) no-repeat;
+    background-size: contain;
+    background-position-x: 9em;
+    height: 35em;
+
+    .card{
+        background: #ffb900eb;
+        margin-left: 270px;
+        margin-top: 150px;
+        margin-bottom: 270px;
+        margin-right: 270px;
+        padding: 1px;
+
+      h1{
+          color: white;
+          text-transform: capitalize;
+           
+      }
+
+      p{
+          color:white;
+          margin-left: 13em;
+          width: 29em;
+          text-align: left;
+          margin-bottom: 1.5em;
+      }
+
+      .cta{
+          margin-left: 24.5em;
+          color: #fff;
+          border: 2px solid #fff;
+      }
+    }
+    
+}
