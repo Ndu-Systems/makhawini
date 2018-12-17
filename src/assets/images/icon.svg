@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91 61">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #000;
+        stroke-width: 5px;
+      }
+
+      .cls-2 {
+        font-size: 44px;
+        font-family: Poppins-SemiBold, Poppins;
+        font-weight: 600;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="icon" transform="translate(-869 -676)">
+    <g id="Rectangle_7" data-name="Rectangle 7" class="cls-1" transform="translate(869 679)">
+      <rect class="cls-3" width="91" height="55.5"/>
+      <rect class="cls-4" x="2.5" y="2.5" width="86" height="50.5"/>
+    </g>
+    <text id="hio" class="cls-2" transform="translate(914.5 722)"><tspan x="-34.606" y="0">hio</tspan></text>
+  </g>
+</svg>

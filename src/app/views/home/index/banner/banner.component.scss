@@ -1,0 +1,75 @@
+.module {
+    background: 
+    linear-gradient(
+        #23B684 -55%, #23b68496
+          ),
+    url(../../../../../assets/images/haydn-golden-543403-unsplash.jpg) no-repeat;
+    background-size: 12em;
+    background-position-x: center;
+    width: 50%;
+    height: 250px;
+     
+    position: relative;
+    float: left;
+    text-align: center;
+  }
+  .module2 {
+    background:   
+      linear-gradient(
+        #FFB900 -55%, #ffb900a6
+      ),
+     
+    url(../../../../../assets/images/sean-pollock-203658-unsplash.jpg) no-repeat;
+    background-size: 24em;
+    background-position-x: center;
+    width: 50%;
+    height: 250px;
+     position: relative;
+    float: left;
+    text-align: center;
+  }
+  .mid h2 {     
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 1.7rem;
+    transform: translate(-50%, -50%);
+  }  
+
+  .mid p{
+    margin: 0;
+    position: absolute;
+    top: 61%;
+    left: 23%;
+    right: 18%;  
+    font-size: 0.8em;
+    text-align: center;   
+    color: #fff;
+
+    
+  }
+
+ .mid p.italic{
+    top: 30%;
+    font-size: 1.0em;
+    font-style: italic;
+}   
+  .mid  .cta{
+    margin: 17em;    
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bolder;
+    
+    cursor: pointer;
+  }

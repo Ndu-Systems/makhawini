@@ -3,13 +3,17 @@ import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 import { HomeComponent } from "./home.component";
 import { IndexComponent } from "./index";
+import { BannerComponent } from "./index/banner";
 
-export const declarations = [HomeComponent, LoginComponent, IndexComponent];
+export const declarations = [HomeComponent, LoginComponent, IndexComponent, BannerComponent];
 const routes: Routes = [
   {
     path: "",
-    component: IndexComponent,
-    children: [{ path: "login", component: LoginComponent }]
+    component: HomeComponent,
+    children: [
+      { path: "login", component: LoginComponent },
+      { path: "", component: IndexComponent}
+    ]
   }
 ];
 
