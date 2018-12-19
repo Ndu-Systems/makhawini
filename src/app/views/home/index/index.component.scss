@@ -1,0 +1,35 @@
+ 
+
+.row{
+    
+    color: #fff;
+    .italic{        
+        font-size: 0.7em;
+        font-style: italic;
+    } 
+
+    .candidate{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        background: #69F0AE;
+        height: 6em;
+        text-align: center;
+        h1{
+            margin-top: 1em;
+        }
+    }
+    .employer{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        background: #FED253;
+        height: 6em;
+        position: relative;
+        text-align: center;
+
+        h1{
+            font-size: 1.8em;
+            margin-top: 1em;
+        }
+    }
+}
+
+
+
