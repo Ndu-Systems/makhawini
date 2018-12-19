@@ -1,35 +1,91 @@
- 
-
-.row{
-    
-    color: #fff;
-    .italic{        
-        font-size: 0.7em;
-        font-style: italic;
-    } 
-
-    .candidate{
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        background: #69F0AE;
-        height: 6em;
-        text-align: center;
-        h1{
-            margin-top: 1em;
-        }
-    }
-    .employer{
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        background: #FED253;
-        height: 6em;
-        position: relative;
-        text-align: center;
-
-        h1{
-            font-size: 1.8em;
-            margin-top: 1em;
-        }
-    }
+ .title{
+    font-weight: bolder;
+    font-size: 20px;
 }
+.cta{
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #000000;
+    color: #000000;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bolder;    
+    margin-top:1em;
+    margin-left: 15em;       
+    cursor: pointer;
+  } 
 
 
+  .banner-gray{ 
+    background: #707b7c42;
+    height: 17em;
+    position: relative;
+    text-align: center;
+    margin-bottom: 22px;
 
+    .links{
+        margin-top: 4em;
+        h1{
+            font-size: 1.0em;
+        }
+        ul{
+            list-style-type: none; 
+        }
+        li{
+            text-align: left;
+            font-size: 0.8em;
+        }
+    }
+
+    .quote{
+        text-align: left;
+        margin-top: 4em;
+        h1{
+            font-size: 1.2em;
+        }
+        span{
+            font-weight: lighter;
+            font-size: 0.7em;
+        }        
+              
+        .input-group{
+            
+            input, button {
+                float: left;
+                padding: 0.5em;
+            }
+            input{
+                width: 17em;
+                border-top-left-radius: 15px;
+                border-bottom-left-radius: 15px;
+                border: none;
+            }
+            button{
+                width: 9.5em;
+                border-top-right-radius: 15px;
+                border-bottom-right-radius: 15px;
+                background: #23B684;
+                border: none;
+                color: #fff;
+            }
+        }
+    }
+
+    .social{
+        text-align: left;
+        h1{
+            font-size: 1.2em;
+        }
+        span{
+            font-weight: lighter;
+            font-size: 0.7em;
+        }  
+        i{
+            margin: 0.2em;
+            font-size: 2em;
+        }
+    }
+  }

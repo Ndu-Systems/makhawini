@@ -2,12 +2,10 @@ import { LoginComponent } from "./login/login.component";
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 import { HomeComponent } from "./home.component";
-import { IndexComponent } from "./index";
-import { BannerComponent } from "./index/banner";
-import { WorkForceComponent } from "./index/work-force";
-import { ServicesComponent } from "./index/services";
+import { IndexComponent, BannerComponent, WorkForceComponent, ServicesComponent, BannerSmallComponent } from "./index";
+ 
 
-export const declarations = [HomeComponent, LoginComponent, IndexComponent, BannerComponent, WorkForceComponent, ServicesComponent];
+export const declarations = [HomeComponent, LoginComponent, IndexComponent, BannerComponent, BannerSmallComponent, WorkForceComponent, ServicesComponent];
 const routes: Routes = [
   {
     path: "",

@@ -7,7 +7,7 @@ html, body {
     font-family: 'Poppins', sans-serif;
 }
 
-title{
+.title{
     font-weight: bold;
 }
 
@@ -18,5 +18,10 @@ title{
 .col-md-12{
     float: left;
     width: 100%;
+}
+
+.col-md-4 {
+    float: left;
+    width: 33.33%;
 }
 
