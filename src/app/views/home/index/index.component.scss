@@ -89,3 +89,22 @@
         }
     }
   }
+
+  @media only screen and (max-width: 500px) {
+      .row .col-md-4 p {
+          display: none;
+      }
+
+      .cta{
+          margin-left: 9em;
+          padding: 0px 24px;
+      }
+
+      .col-sm-12{
+          width: 100%;          
+      }
+
+      .banner-gray .links li {
+        font-size: 0.6em;
+      }
+  }
