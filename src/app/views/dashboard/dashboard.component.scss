@@ -1,12 +1,11 @@
-.dashboard-container {
-  width: 100%;
+ 
 
   .main {
     position: relative;
     float: left;
     width: 75%;
     height: 100vh;
-    padding: 1%;
+    padding: 6%;
   }
 
   .user-profile-btn {
@@ -14,8 +13,7 @@
     top: 1%;
     right: 0;
   }
-}
-
+ 
 .toggle-profile {
   cursor: pointer;
 }

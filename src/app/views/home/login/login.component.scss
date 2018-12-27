@@ -79,6 +79,31 @@ input {
                input[type="submit"]:focus {
                 border-color: #05a;
               }
+
+              a {
+                box-sizing: border-box;
+                display: block;
+                width: 100%;
+                border-width: 1px;
+                border-style: solid;
+                padding: 16px;
+                outline: 0;
+                font-family: inherit;
+                font-size: 0.95em;
+                background: #28d;
+                border-color: transparent;
+                color: #fff;
+                cursor: pointer;
+                border-radius: 50px;
+                text-decoration: none;
+              }
+
+              a :hover {
+                background: #17c;
+              }
+              a:focus {
+                border-color: #05a;
+              }
     }
   }
   .module2 {

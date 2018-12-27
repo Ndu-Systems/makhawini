@@ -2,16 +2,27 @@
   <section class="nav">
     <div class="logo">
       <h1>
-        <a routerLink="/dashboard">Start.IO</a>
+        <a routerLink="/dashboard">hire.io</a>
       </h1>
     </div>
     
     <ul>
+        <li>
+            <a routerLink="/dashboard" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">home</a>
+          </li>
       <li>
-        <a routerLink="users" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Users</a>
+        <a routerLink="users" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">candidates</a>
       </li>
       <li>
-        <a routerLink="/dashboard" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Orders !</a>
+        <a routerLink="/dashboard"  >vacancies</a>
+      </li>
+      <li>
+        <a routerLink="/dashboard" >manager</a>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <a routerLink="/login"><i class="fas fa-sign-out-alt"></i> Sign-out</a>
       </li>
     </ul>
   </section>
