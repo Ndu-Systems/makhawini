@@ -25,3 +25,43 @@ html, body {
     width: 33.33%;
 }
 
+
+ 
+.container {
+    max-width: 80em;
+    margin: 0 auto;
+    &--fluid {
+      margin: 0;
+      max-width: 100%;
+    }
+    
+  }
+
+  .container {
+    
+    box-sizing: border-box;
+    padding: 1%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    &__row {
+      background-color: #ffeead;
+    }
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .row-element {
+    width: 150px;
+    height: 30px;
+    background-color: #ff6f69;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+
+ 
