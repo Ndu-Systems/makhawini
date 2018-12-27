@@ -2,6 +2,18 @@
     height: 50em;
 }
 
+input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+  }
+
 .module {    
     width: 50%;
     height: 100%;     
@@ -36,17 +48,7 @@
             padding: 0.4em;
           }
 
-          input {
-            box-sizing: border-box;
-            display: block;
-            width: 100%;
-            border-width: 1px;
-            border-style: solid;
-            padding: 16px;
-            outline: 0;
-            font-family: inherit;
-            font-size: 0.95em;
-          }
+         
 
             input[type="email"],
              input[type="password"] {
@@ -85,60 +87,50 @@
         #FFB900 -55%, #ffb900a6
       ),
      
-    url(../../../../assets/images/sean-pollock-203658-unsplash.jpg) no-repeat;
-    background-size: 24em;
+    url(../../../../assets/images/lock.jpg) no-repeat;
+    background-size: cover;
     background-position-x: center;
     width: 50%;
     height: 100%;
      position: relative;
     float: left;
     text-align: center;
-  }
-  .mid h2 {     
-    font-weight: bolder;
-    color: white;
-    text-transform: uppercase;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    font-size: 1.7rem;
-    transform: translate(-50%, -50%);
-  }  
-
-  .mid p{
-    margin: 0;
-    position: absolute;
-    top: 61%;
-    left: 23%;
-    right: 18%;  
-    font-size: 0.8em;
-    text-align: center;   
-    color: #fff;
-
     
-  }
+    input[type="submit"] {
+        background: #3AE374;
+        border-color: transparent;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 50px;
+        margin-top: 10em;
+      }
 
- .mid p.italic{
-    top: 30%;
-    font-size: 1.0em;
-    font-style: italic;
-}   
-  .mid  .cta{
-    margin: 17em;    
-    text-transform: uppercase;
-    background-color: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    padding: 3px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    font-weight: bolder;
-    
-    cursor: pointer;
-  }
+
+      h1 {     
+        font-weight: bolder;
+        color: white;
+        text-transform: uppercase;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 2rem;
+        transform: translate(-50%, -50%);        
+      }  
+
+      .header{
+        top: 20%;
+        font-size: 2em;
+      }
+
+      p.caption{
+          margin-top: 16em;
+          color:#fff;
+      }
+
+
+  } 
+   
 
   @media only screen and (max-width: 500px) {
       
