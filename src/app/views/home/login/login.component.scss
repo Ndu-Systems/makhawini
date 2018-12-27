@@ -1,0 +1,145 @@
+.row{
+    height: 50em;
+}
+
+.module {    
+    width: 50%;
+    height: 100%;     
+    position: relative;
+    float: left;
+    text-align: center;
+
+    .login{
+
+        width: 400px;
+        margin: 6em auto;
+        font-size: 16px;
+        
+        .login-header,
+          {
+            margin-top: 0;
+            margin-bottom: 0;           
+            padding: 20px;
+            font-size: 1.9em;
+            font-weight: normal;
+            text-align: center;
+            text-transform: capitalize;
+            color: #000000;
+         }   
+
+         .login-container {
+            background: #ebebeb21;
+            padding: 12px;
+          }
+
+          p {
+            padding: 0.4em;
+          }
+
+          input {
+            box-sizing: border-box;
+            display: block;
+            width: 100%;
+            border-width: 1px;
+            border-style: solid;
+            padding: 16px;
+            outline: 0;
+            font-family: inherit;
+            font-size: 0.95em;
+          }
+
+            input[type="email"],
+             input[type="password"] {
+            background: #fff;
+            border-color: #bbb;
+            color: #555;
+            border-radius: 15px;
+            }
+
+            input[type="email"]:focus,
+            input[type="password"]:focus {
+            border-color: #888;
+            }
+
+            input[type="submit"] {
+                background: #28d;
+                border-color: transparent;
+                color: #fff;
+                cursor: pointer;
+                border-radius: 50px;
+              }
+
+              [type="submit"]:hover {
+                background: #17c;
+              }
+              
+              /* Buttons' focus effect */
+               input[type="submit"]:focus {
+                border-color: #05a;
+              }
+    }
+  }
+  .module2 {
+    background:   
+      linear-gradient(
+        #FFB900 -55%, #ffb900a6
+      ),
+     
+    url(../../../../assets/images/sean-pollock-203658-unsplash.jpg) no-repeat;
+    background-size: 24em;
+    background-position-x: center;
+    width: 50%;
+    height: 100%;
+     position: relative;
+    float: left;
+    text-align: center;
+  }
+  .mid h2 {     
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 1.7rem;
+    transform: translate(-50%, -50%);
+  }  
+
+  .mid p{
+    margin: 0;
+    position: absolute;
+    top: 61%;
+    left: 23%;
+    right: 18%;  
+    font-size: 0.8em;
+    text-align: center;   
+    color: #fff;
+
+    
+  }
+
+ .mid p.italic{
+    top: 30%;
+    font-size: 1.0em;
+    font-style: italic;
+}   
+  .mid  .cta{
+    margin: 17em;    
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bolder;
+    
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 500px) {
+      
+  }
